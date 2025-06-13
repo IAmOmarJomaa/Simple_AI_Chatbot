@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tags": "greetings",
+      "patterns": ["Hey", "Hello", "Hi", "Good day", "Greetings", "What's up?", "How is it going?"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?", "Hi there! How can I assist you today?"]
+    },
+    {
+      "tags": "farewell",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Talk to you soon"],
+      "responses": ["Goodbye!", "See you later!", "Take care!", "Talk to you soon!"]
+    },
+    {
+      "tags": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Much obliged", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tags": "help",
+      "patterns": ["I need help", "Can you assist me?", "Help me out", "I need assistance", "Can you help?"],
+      "responses": ["Of course! What do you need help with?", "Sure, how can I assist you?", "I'm here to help!"]
+    },
+    {
+      "tags": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "Is it raining?", "How's the weather?", "Forecast for today?"],
+      "responses": ["It's sunny today!", "Looks like rain is on the way.", "The forecast is clear skies.", "It's quite chilly outside."]
+    },
+    {
+      "tags": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny", "Do you know any jokes?"],
+      "responses": ["Why don't skeletons fight each other? They don't have the guts!", "I told my computer I needed a break, and it said 'No problem. I'll go to sleep!'"]
+    },
+    {
+      "tags": "name",
+      "patterns": ["What's your name?", "Who are you?", "Introduce yourself", "Tell me your name"],
+      "responses": ["I'm your friendly chatbot!", "You can call me Chatbot.", "I'm your assistant!"]
+    },
+    {
+      "tags": "age",
+      "patterns": ["How old are you?", "What's your age?", "When were you created?", "Are you old?"],
+      "responses": ["I'm as old as the internet!", "Age is just a number for me.", "I was created recently, but I learn fast!"]
+    }
+  ]
+}
